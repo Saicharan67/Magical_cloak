@@ -16,6 +16,10 @@ Afterwards i converted the image from RGB to HSV.The purpose is we have advantag
 
 As i took red colour, In HSV red colour ranges from 0 to 10 degrees and 170 to 180 degrees So i took lower range and upper range by using numpy 
 
+[If u want to use blue colour take lower limits 90 to 100 and upper 110 to 120]
+
+[If u want use Green colour take lower limts 40 to 50 and upper 60 to 70]
+
 Now we got two ranges mask1 and mask2 our goal is to eliminate red colour and replace it with background 
 so i added two masks
 mask1 contains only the cloth part
